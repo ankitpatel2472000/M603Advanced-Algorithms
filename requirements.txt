@@ -1,0 +1,8 @@
+# M603 Advanced Algorithms - Campus Puzzle
+# Python 3.10 or later
+
+# No external dependencies are required.
+# The project uses only Python standard-library modules:
+# - json
+# - os
+# - functools

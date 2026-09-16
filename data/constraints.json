@@ -1,0 +1,173 @@
+{
+    "time_slots": [
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "14:00",
+        "15:00"
+    ],
+
+    "classes": [
+        {
+            "id": "CS101",
+            "students": 45,
+            "professor": "P01"
+        },
+        {
+            "id": "CS102",
+            "students": 40,
+            "professor": "P02"
+        },
+        {
+            "id": "CS201",
+            "students": 55,
+            "professor": "P03"
+        },
+        {
+            "id": "CS202",
+            "students": 35,
+            "professor": "P04"
+        },
+        {
+            "id": "MATH101",
+            "students": 60,
+            "professor": "P05"
+        },
+        {
+            "id": "MATH102",
+            "students": 50,
+            "professor": "P06"
+        },
+        {
+            "id": "MATH201",
+            "students": 40,
+            "professor": "P07"
+        },
+        {
+            "id": "DB101",
+            "students": 48,
+            "professor": "P08"
+        },
+        {
+            "id": "DB201",
+            "students": 35,
+            "professor": "P09"
+        },
+        {
+            "id": "AI101",
+            "students": 70,
+            "professor": "P10"
+        },
+        {
+            "id": "AI201",
+            "students": 45,
+            "professor": "P11"
+        },
+        {
+            "id": "SE101",
+            "students": 50,
+            "professor": "P12"
+        },
+        {
+            "id": "SE201",
+            "students": 30,
+            "professor": "P13"
+        },
+        {
+            "id": "NET101",
+            "students": 65,
+            "professor": "P14"
+        },
+        {
+            "id": "NET201",
+            "students": 40,
+            "professor": "P15"
+        },
+        {
+            "id": "PHY101",
+            "students": 55,
+            "professor": "P16"
+        },
+        {
+            "id": "PHY201",
+            "students": 35,
+            "professor": "P17"
+        },
+        {
+            "id": "HIST101",
+            "students": 25,
+            "professor": "P18"
+        },
+        {
+            "id": "ECON101",
+            "students": 45,
+            "professor": "P19"
+        },
+        {
+            "id": "BUS101",
+            "students": 30,
+            "professor": "P20"
+        }
+    ],
+
+    "rooms": [
+        {
+            "id": "R101",
+            "capacity": 30
+        },
+        {
+            "id": "R102",
+            "capacity": 40
+        },
+        {
+            "id": "R103",
+            "capacity": 50
+        },
+        {
+            "id": "R104",
+            "capacity": 60
+        },
+        {
+            "id": "R105",
+            "capacity": 75
+        },
+        {
+            "id": "R106",
+            "capacity": 100
+        }
+    ],
+
+    "student_groups": {
+        "G1": [
+            "CS101",
+            "MATH101",
+            "DB101",
+            "AI101"
+        ],
+        "G2": [
+            "CS102",
+            "MATH102",
+            "SE101",
+            "NET101"
+        ],
+        "G3": [
+            "CS201",
+            "MATH201",
+            "DB201",
+            "AI201"
+        ],
+        "G4": [
+            "CS202",
+            "SE201",
+            "PHY201",
+            "BUS101"
+        ],
+        "G5": [
+            "PHY101",
+            "NET201",
+            "HIST101",
+            "ECON101"
+        ]
+    }
+}
