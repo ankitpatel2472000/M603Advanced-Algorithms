@@ -1,0 +1,128 @@
+D:\Second_term\Ankit_second_term\algorithm\M603Advanced-Algorithms-main>python main.py
+
+======================================================================
+STAGE 1 – GREEDY BASELINE
+======================================================================
+Scheduled AI101      09:00    R105   Wasted 5 seats
+Scheduled AI201      10:00    R106   Wasted 55 seats
+Scheduled BUS101     12:00    R101   Perfect Fit
+Scheduled CS101      12:00    R103   Wasted 5 seats
+Scheduled CS102      12:00    R102   Perfect Fit
+Scheduled CS201      09:00    R104   Wasted 5 seats
+Scheduled CS202      09:00    R102   Wasted 5 seats
+Scheduled DB101      11:00    R104   Wasted 12 seats
+Scheduled DB201      12:00    R104   Wasted 25 seats
+Scheduled ECON101    09:00    R103   Wasted 5 seats
+Scheduled HIST101    12:00    R105   Wasted 50 seats
+Scheduled MATH101    10:00    R104   Perfect Fit
+Scheduled MATH102    10:00    R103   Perfect Fit
+Scheduled MATH201    11:00    R102   Perfect Fit
+Scheduled NET101     09:00    R106   Wasted 35 seats
+Scheduled NET201     11:00    R105   Wasted 35 seats
+Scheduled PHY101     10:00    R105   Wasted 20 seats
+Scheduled PHY201     10:00    R102   Wasted 5 seats
+Scheduled SE101      11:00    R103   Perfect Fit
+Scheduled SE201      11:00    R101   Perfect Fit
+----------------------------------------------------------------------
+Scheduled classes   : 20
+Unscheduled classes : 0
+Room capacity waste : 262
+
+======================================================================
+STAGE 2 – WELSH–POWELL GRAPH COLOURING
+======================================================================
+AI101      Colour 3   Time 12:00
+AI201      Colour 3   Time 12:00
+BUS101     Colour 3   Time 12:00
+CS101      Colour 0   Time 09:00
+CS102      Colour 0   Time 09:00
+CS201      Colour 0   Time 09:00
+CS202      Colour 0   Time 09:00
+DB101      Colour 2   Time 11:00
+DB201      Colour 2   Time 11:00
+ECON101    Colour 3   Time 12:00
+HIST101    Colour 2   Time 11:00
+MATH101    Colour 1   Time 10:00
+MATH102    Colour 1   Time 10:00
+MATH201    Colour 1   Time 10:00
+NET101     Colour 3   Time 12:00
+NET201     Colour 0   Time 09:00
+PHY101     Colour 1   Time 10:00
+PHY201     Colour 2   Time 11:00
+SE101      Colour 2   Time 11:00
+SE201      Colour 1   Time 10:00
+
+======================================================================
+STAGE 3 – DYNAMIC PROGRAMMING ROOM OPTIMISATION
+======================================================================
+
+======================================================================
+STAGE 3 – DP OPTIMISED SCHEDULE
+======================================================================
+Scheduled AI101      12:00    R105   Wasted 5 seats
+Scheduled AI201      12:00    R103   Wasted 5 seats
+Scheduled BUS101     12:00    R101   Perfect Fit
+Scheduled CS101      09:00    R103   Wasted 5 seats
+Scheduled CS102      09:00    R102   Perfect Fit
+Scheduled CS201      09:00    R104   Wasted 5 seats
+Scheduled CS202      09:00    R105   Wasted 40 seats
+Scheduled DB101      11:00    R103   Wasted 2 seats
+Scheduled DB201      11:00    R102   Wasted 5 seats
+Scheduled ECON101    12:00    R104   Wasted 15 seats
+Scheduled HIST101    11:00    R101   Wasted 5 seats
+Scheduled MATH101    10:00    R104   Perfect Fit
+Scheduled MATH102    10:00    R103   Perfect Fit
+Scheduled MATH201    10:00    R102   Perfect Fit
+Scheduled NET101     12:00    R106   Wasted 35 seats
+Scheduled NET201     09:00    R106   Wasted 60 seats
+Scheduled PHY101     10:00    R105   Wasted 20 seats
+Scheduled PHY201     11:00    R105   Wasted 40 seats
+Scheduled SE101      11:00    R104   Wasted 10 seats
+Scheduled SE201      10:00    R101   Perfect Fit
+----------------------------------------------------------------------
+Scheduled classes   : 20
+Unscheduled classes : 0
+Room capacity waste : 252
+
+======================================================================
+STAGE 4 – BACKTRACKING / BEST EFFORT
+======================================================================
+
+======================================================================
+FINAL BEST-EFFORT SCHEDULE
+======================================================================
+Scheduled AI101      12:00    R105   Wasted 5 seats
+Scheduled AI201      12:00    R103   Wasted 5 seats
+Scheduled BUS101     12:00    R101   Perfect Fit
+Scheduled CS101      09:00    R103   Wasted 5 seats
+Scheduled CS102      09:00    R102   Perfect Fit
+Scheduled CS201      09:00    R104   Wasted 5 seats
+Scheduled CS202      09:00    R105   Wasted 40 seats
+Scheduled DB101      11:00    R103   Wasted 2 seats
+Scheduled DB201      11:00    R102   Wasted 5 seats
+Scheduled ECON101    12:00    R104   Wasted 15 seats
+Scheduled HIST101    11:00    R101   Wasted 5 seats
+Scheduled MATH101    10:00    R104   Perfect Fit
+Scheduled MATH102    10:00    R103   Perfect Fit
+Scheduled MATH201    10:00    R102   Perfect Fit
+Scheduled NET101     12:00    R106   Wasted 35 seats
+Scheduled NET201     09:00    R106   Wasted 60 seats
+Scheduled PHY101     10:00    R105   Wasted 20 seats
+Scheduled PHY201     11:00    R105   Wasted 40 seats
+Scheduled SE101      11:00    R104   Wasted 10 seats
+Scheduled SE201      10:00    R101   Perfect Fit
+----------------------------------------------------------------------
+Scheduled classes   : 20
+Unscheduled classes : 0
+Room capacity waste : 252
+
+======================================================================
+CONFLICT REPORT
+======================================================================
+All classes were successfully scheduled.
+
+======================================================================
+MANUAL FIX LOG
+======================================================================
+No manual intervention is required.
+
