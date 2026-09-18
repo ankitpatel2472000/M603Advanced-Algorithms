@@ -2,6 +2,8 @@
 
 ## University Timetabling Optimisation System
 
+# Video Link: https://youtu.be/1L8UnCtrSZY
+
 This project implements an algorithmic solution to the "Campus Puzzle"
 university timetabling problem for the M603 Advanced Algorithms module.
 
